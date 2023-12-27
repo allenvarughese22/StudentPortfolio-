@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
         Welcome to My Portfolio
       </Typography>
       <Typography variant="subtitle1">
-        Hi, I'm [oUR Name]. Here's a brief overview of my skills and interests.
+        Hi, I'm [oUR Name]. my skills and interests.
       </Typography>
       {/* skilssssssssssssssssssssssssssssssssssssssssssss and infor */}
     </Container>
