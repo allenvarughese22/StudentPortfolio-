@@ -26,3 +26,4 @@ const ProjectList: React.FC = () => {
     </Grid>
   );
 };
+export default ProjectList;
