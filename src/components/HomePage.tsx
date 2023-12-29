@@ -89,11 +89,9 @@ const HomePage: React.FC = () => {
         </Grid>
 
         <Typography variant="body1" paragraph sx={{ marginTop: "20px" }}>
-          <b>
-            My journey in technology is fueled by a passion for learning and
-            innovation, always aiming to contribute impactful solutions in the
-            tech space.
-          </b>
+          My journey in technology is fueled by a passion for learning and
+          innovation, always aiming to contribute impactful solutions in the
+          tech space.
         </Typography>
       </Paper>
     </Container>
