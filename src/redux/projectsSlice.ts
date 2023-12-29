@@ -5,6 +5,8 @@ interface Project {
   id: number;
   title: string;
   description: string;
+  githubLink: string; // Add GitHub link field
+  liveDemoLink: string; // Add live demo link field
 }
 
 // Initial state type
@@ -20,7 +22,9 @@ const initialState: ProjectsState = {
       title: "Task Manager",
       description:
         "Task Manager is a web application designed to manage tasks efficiently. The user-friendly interface allows users to add, edit, and delete tasks with ease. Leveraging React for the frontend and Redux for state management, the application provides a seamless experience. The project showcases the use of hooks, CSS styling, and responsive design for a modern and visually appealing task management solution.",
-    },
+        githubLink: "https://github.com/NoahxAyyubi/Task-Manager",
+        liveDemoLink: "https://monumental-beignet-78bad0.netlify.app/"
+  },
     // Add more initial projects as needed
   ],
 };

@@ -6,6 +6,7 @@ import { Container, Typography } from "@mui/material";
 
 interface ParamTypes {
   projectId: string;
+  [key: string]: string | undefined;
 }
 
 const ProjectDetails: React.FC = () => {

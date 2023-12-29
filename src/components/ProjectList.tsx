@@ -17,9 +17,7 @@ const ProjectList: React.FC = () => {
               <Typography variant="h5" gutterBottom>
                 {project.title}
               </Typography>
-              <Typography variant="body2">
-                {project.description}
-              </Typography>
+            
               <Link component={RouterLink} to={`/projects/${project.id}`} color="primary">
                 View Details
               </Link>
