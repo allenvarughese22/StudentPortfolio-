@@ -17,7 +17,21 @@ const ProjectList: React.FC = () => {
               <Typography variant="h5" gutterBottom>
                 {project.title}
               </Typography>
-            
+              <div>
+        <strong>Links:</strong>
+        <ul>
+          <li>
+            <Link href={project.liveDemoLink} target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </Link>
+          </li>
+          <li>
+            <Link href={project.githubLink} target="_blank" rel="noopener noreferrer">
+              GitHub Repository
+            </Link>
+          </li>
+        </ul>
+      </div>
               <Link component={RouterLink} to={`/projects/${project.id}`} color="primary">
                 View Details
               </Link>
