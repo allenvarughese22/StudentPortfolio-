@@ -5,7 +5,6 @@ interface Project {
   id: number;
   title: string;
   description: string;
-  // Add other project fields as needed
 }
 
 // Initial state type
@@ -16,7 +15,13 @@ interface ProjectsState {
 // Define the initial state
 const initialState: ProjectsState = {
   items: [
-    // Populate with initial project data or leave it empty
+    {
+      id: 1,
+      title: "Task Manager",
+      description:
+        "Task Manager is a web application designed to manage tasks efficiently. The user-friendly interface allows users to add, edit, and delete tasks with ease. Leveraging React for the frontend and Redux for state management, the application provides a seamless experience. The project showcases the use of hooks, CSS styling, and responsive design for a modern and visually appealing task management solution.",
+    },
+    // Add more initial projects as needed
   ],
 };
 
