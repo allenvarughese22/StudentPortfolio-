@@ -12,14 +12,14 @@ const Contact: React.FC = () => {
       </Typography>
       <div className={styles.contactInfo}>
         <EmailIcon className={styles.icon} />
-        <Link href="mailto:allenvarughese22@gmail.com" color="inherit">
-          allenvarughese22@gmail.com
+        <Link href="mailto:noahxmuhammad@gmail.com" color="inherit">
+          noahxmuhammad@gmail.com
         </Link>
       </div>
       <div className={styles.contactInfo}>
         <LinkedInIcon className={styles.icon} />
         <Link
-          href="https://www.linkedin.com/in/allen-varughese-7b2b5879/"
+          href="https://www.linkedin.com/in/noah-muhammad-1461732a3/"
           target="_blank"
           color="inherit"
         >
@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
       <div className={styles.contactInfo}>
         <GitHubIcon className={styles.icon} />
         <Link
-          href="https://github.com/allenvarughese22"
+          href="https://github.com/NoahxAyyubi"
           target="_blank"
           color="inherit"
         >

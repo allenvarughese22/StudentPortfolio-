@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
           paragraph
           style={{ textAlign: "center" }}
         >
-          Hi, I'm [Your Name], a software developer with a knack for front-end
+          Hi, I'm Noah, a software developer with a knack for front-end
           and back-end technologies.
         </Typography>
 
